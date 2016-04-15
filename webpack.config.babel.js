@@ -11,6 +11,10 @@ const plugins = [
 		template: 'src/index.html',
 		filename: '200.html',
 	}),
+	new HtmlWebpackPlugin({
+		template: 'src/index.html',
+		filename: '404.html',
+	}),
 ];
 
 if (process.env.NODE_ENV === 'production') {
@@ -36,7 +40,7 @@ export default {
 	],
 	output: {
 		path: path.join(__dirname, 'dist'),
-		filename: '[name]-[hash:base64:7].js',
+		filename: '[name]-[hash].js',
 		publicPath: '/',
 	},
 	module: {
