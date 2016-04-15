@@ -36,7 +36,7 @@ export default {
 	],
 	output: {
 		path: path.join(__dirname, 'dist'),
-		filename: '[name]-[hash:base64:7].js',
+		filename: '[name]-[hash].js',
 		publicPath: '/',
 	},
 	module: {

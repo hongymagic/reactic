@@ -32,12 +32,14 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.7.4",
+    "material-ui": "^0.15.0-alpha.1",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
     "react-helmet": "^3.0.1",
     "react-redux": "^4.4.4",
     "react-router": "^2.2.1",
     "react-router-redux": "^4.0.2",
+    "react-tap-event-plugin": "^1.0.0",
     "redux": "^3.4.0",
     "redux-async-connect": "^1.0.0-rc4",
     "redux-logger": "^2.6.1"
